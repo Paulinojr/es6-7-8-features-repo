@@ -24,16 +24,28 @@ var phraseSplitterES5 = function phraseSplitter(phrase) {
 };
 
 //ES6
-const phraseSplitterES6 = phrase => phrase.split //Optional parenthesis
+const phraseSplitterES6 = phrase => phrase.split; //Optional parenthesis
 
 //Basic Syntax with No Parameters
 
 //ES5
 
 var fighterLogES5 = function fighterLogES5(){
-    console.log("K'")
-}
+    console.log("K'");
+};
 
 //ES6
-var fighterLogES6 = () => { console.log("K'") }
+var fighterLogES6 = () => { console.log("K'") };
 
+// Object Literal Syntax
+
+//ES5
+var setNameIdsES5 = function setNameIds(id, name){
+    return {
+        id: id,
+        name: name
+    }
+};
+
+//ES6
+var setNameIdsEs6 = (id, name) => ({id, name})
