@@ -25,3 +25,15 @@ var phraseSplitterES5 = function phraseSplitter(phrase) {
 
 //ES6
 const phraseSplitterES6 = phrase => phrase.split //Optional parenthesis
+
+//Basic Syntax with No Parameters
+
+//ES5
+
+var fighterLogES5 = function fighterLogES5(){
+    console.log("K'")
+}
+
+//ES6
+var fighterLogES6 = () => { console.log("K'") }
+
