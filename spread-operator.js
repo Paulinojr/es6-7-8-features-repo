@@ -10,4 +10,4 @@ let team2 = [...team1];
  * Returns:
  * "Leona", "Ralf Jones", "Clark Still"
  */
-console.log(example2)
+console.log(team2)
