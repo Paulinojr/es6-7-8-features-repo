@@ -14,7 +14,7 @@ export class Fighter {
     }
 
     //and also functions that don't require instantiation
-    finisher(){
-        console.log("launch finisher attack");
+    static finisher(){
+        return "launch finisher attack";
     }
 }

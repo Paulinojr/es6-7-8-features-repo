@@ -9,4 +9,8 @@ console.log(fighter.name);
 
 fighter.attack();
 
+/*
+ * Returns: launch finisher attack 
+ */
+
 console.log(Fighter.finisher())
